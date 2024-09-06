@@ -57,7 +57,7 @@ export default function NavBar({
   return (
     <div
       id="navbar"
-      className="z-10 fixed flex justify-center w-full bg-red-600 dark:bg-[maroon] h-[100px] shadow-lg"
+      className="z-10 fixed flex justify-center w-full bg-red-600/90 dark:bg-[maroon]/90 h-[100px] shadow-lg"
     >
       <div className={`w-[100%] relative flex justify-center items-center`}>
         <SideNav
@@ -135,7 +135,7 @@ export default function NavBar({
             viewBox="0 0 24 24"
             strokeWidth={1.5}
             stroke="currentColor"
-            className={`size-5 hover:scale-105 active:scale-110 ${
+            className={`size-5 hover:scale-105 hover:stroke-red-300 active:scale-110 ${
               showSideNav ? "stroke-red-600" : "stroke-red-950"
             } `}
           >
