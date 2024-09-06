@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+---
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### **Gallery App - Showcasing the Power of React**
 
-## Available Scripts
+This gallery app is a modern, responsive web application built entirely with **React** and **Tailwind CSS**, demonstrating the versatility and power of these technologies. With clean navigation enabled by **React Router DOM**, the app offers users a smooth and intuitive experience for browsing, saving, and managing their favorite photos.
 
-In the project directory, you can run:
+#### **Key Features:**
 
-### `npm start`
+- **Home & Favorites Pages**: The app consists of a homepage where users can search for photos and a favorites page to store selected photos. Favorites are saved in **local storage**, making this app lightweight without needing a backend.
+  
+- **Photo Search with Unsplash API**: Users can search for photos online through the **Unsplash API**. The search results are displayed in a dynamic grid layout. Each search query is limited to 30 images per page, but if more images are available, a "Load More" button appears, allowing users to load additional results seamlessly.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Infinite Scroll & Lazy Loading**: The gallery supports smooth scrolling through search results. As users scroll through the images, additional images load without disrupting the experience. The app intelligently handles loading states with **modern animations** to keep the user informed.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Add to Favorites**: Users can add photos they like to the favorites page, and can just as easily remove them. This functionality is stored locally, ensuring user preferences are remembered across sessions.
 
-### `npm test`
+- **Dark Mode & Light Mode Toggle**: The app features a theme toggle, letting users switch between dark and light modes with beautifully styled transitions that enhance the user experience.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Modern Animations & Transitions**: Every element is thoughtfully styled with **smooth transitions** and **modern animations**, providing a visually appealing and interactive experience. Loading states are animated to keep users engaged while data is fetched.
 
-### `npm run build`
+- **Advanced React Hooks**: The app showcases the use of powerful React hooks such as `useState`, `useEffect`, `useRef`, and `useContext` to manage state, side effects, and global states. These hooks ensure smooth updates to the UI, making the app feel highly responsive.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### **Technologies Used**:
+- **React** for component-driven development
+- **Tailwind CSS** for styling and responsive design
+- **React Router DOM** for seamless navigation
+- **Axios** for handling asynchronous API requests
+- **Unsplash API** for fetching images
+- **LocalStorage** for persistent data management
+- **React Hooks** for managing UI states and effects
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+This project showcases the **capabilities of React** in creating a well-structured, highly interactive gallery app with a smooth and efficient UI. It's designed to highlight skills in both **front-end development** and **modern user experience design**. You can check out the project and the code in my GitHub repository!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
