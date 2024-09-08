@@ -14,7 +14,7 @@ export default function Home({}) {
     nextError,
     nextPage,
   } = useContext(GlobalContext);
-
+  console.log(loading, searchEmpty, pages.length);
   return (
     <section
       id="home-content"

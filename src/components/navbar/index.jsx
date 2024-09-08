@@ -148,7 +148,7 @@ export default function NavBar({
         </span>
         <span
           id="light-dark-icon-side"
-          className={`absolute md:hidden z-[100] cursor-pointer right-5 rounded-full p-2`}
+          className={`group absolute md:hidden z-[100] cursor-pointer right-5 rounded-full p-2`}
           onClick={handleDarkMode}
         >
           {darkMode ? (
@@ -158,7 +158,7 @@ export default function NavBar({
               viewBox="0 0 24 24"
               strokeWidth={1.5}
               stroke="currentColor"
-              className={`size-7 hover:scale-105 hover:stroke-white active:scale-110 ${
+              className={`size-7 group-hover:scale-105 group-hover:stroke-white group-active:scale-110 ${
                 showSideNav ? "stroke-red-600" : "stroke-red-950"
               } `}
             >
@@ -176,7 +176,7 @@ export default function NavBar({
               viewBox="0 0 24 24"
               strokeWidth={1.5}
               stroke="currentColor"
-              className={`size-6 hover:scale-105 fill-red-600 hover:fill-black hover:stroke-red-950 active:scale-110 ${
+              className={`size-6 group-hover:scale-105 fill-red-600 group-hover:fill-black group-hover:stroke-red-950 group-active:scale-110 ${
                 showSideNav ? "stroke-red-600" : "stroke-red-950"
               } `}
             >
