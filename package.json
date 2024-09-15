@@ -2,7 +2,7 @@
   "name": "gallery-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://codertreez.github.io/gallery-app",
+ 
 
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
